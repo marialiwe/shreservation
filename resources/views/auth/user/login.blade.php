@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    <title>Laracamp by BuildWith Angga</title>
+    <title>Sapphire Hotel</title>
 </head>
 
 <body>
@@ -36,7 +36,6 @@
                     <img src="{{asset('images/ic_google.svg')}}" class="icon" alt=""> Sign In with Google
                 </a>
             </p>
-            <img src="{{asset('images/people.png')}}" class="people" alt="">
         </div>
     </section>
 

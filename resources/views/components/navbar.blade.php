@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="{{route('welcome')}}">
-                <img src="{{asset('images/logo4.png')}}" alt="">
+                <img src="{{asset('images/logo.png')}}" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -12,13 +12,10 @@
                         <a class="nav-link " aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link " href="#facilities">Facilities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#reservation">Reservation</a>
+                        <a class="nav-link" href="#reservation">Book</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#testi">Testimony</a>

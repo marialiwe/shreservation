@@ -8,13 +8,14 @@
                     <div class="row">
                         <div class="col-lg-6 col-12 copywriting">
                             <p class="story">
-                                LEARN FROM EXPERT
+                                 BOOK YOUR ROOM
                             </p>
                             <h1 class="header">
-                                Start Your <span class="text-purple">Developer <br> Journey</span> Today
+                                Plan your holiday with Sapphire Hotel
                             </h1>
                             <p class="support">
-                                Our bootcamp is helping junior developers who <br> are really passionate in the programming.
+                            Welcomes you in a real cosmopolitan, pulsing milieu, at the same time offering peace and intimate retirement, just in the heart of the city centre joined forces for you!
+                            
                             </p>
                             <p class="cta">
                                 <a href="#reservation" class="btn btn-master btn-primary">
@@ -24,7 +25,7 @@
                         </div>
                         <div class="col-lg-6 col-12 text-center">
                             <a href="#">
-                                <img src="{{asset('images/banner.png')}}" class="img-fluid" alt="">
+                                <img src="{{asset('images/home.png')}}" class="img-fluid" alt="">
                             </a>
                         </div>
                     </div>
@@ -34,85 +35,60 @@
         </div>
     </section>
 
-    <section class="steps" id="about">
-        <div class="container">
-            <div class="row item-step pb-70">
-                <div class="col-lg-6 col-12 text-center">
-                    <img src="{{asset('images/step1.png')}}" class="cover" alt="">
-                </div>
-                <div class="col-lg-6 col-12 text-left copywriting">
-                    <p class="story">
-                        BETTER CAREER
-                    </p>
-                    <h2 class="primary-header">
-                        Prepare The Journey
-                    </h2>
-                    <p class="support">
-                        Learn from anyone around the <br> world and get a new skills
-                    </p>
-                    <p class="mt-5">
-                        <a href="#" class="btn btn-master btn-secondary me-3">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-    </section>
-
     <section class="benefits" id="facilities">
         <div class="container">
             <div class="row text-center pb-70">
                 <div class="col-lg-12 col-12 header-wrap">
                     <p class="story">
-                        OUR SUPER BENEFITS
+                        FACILITIES
                     </p>
                     <h2 class="primary-header">
-                        Learn Faster & Better
+                        What we provide
                     </h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-12">
                     <div class="item-benefit">
-                        <img src="{{asset('images/ic_globe.png')}}" class="icon" alt="">
+                        <img src="{{asset('images/ic1.png')}}" class="icon" alt="">
                         <h3 class="title">
-                            Diversity
+                            Pool
                         </h3>
                         <p class="support">
-                            Learn from anyone around the <br> world and get a new skills
+                            Indoor & outdoor room
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-12">
                     <div class="item-benefit">
-                        <img src="{{asset('images/ic_globe-1.png')}}" class="icon" alt="">
+                        <img src="{{asset('images/ic2.png')}}" class="icon" alt="">
                         <h3 class="title">
-                            A.I Guideline
+                            Spa
                         </h3>
                         <p class="support">
-                            Lara will help you to choose <br> which path that suitable for you
+                            Fullbody spa
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-12">
                     <div class="item-benefit">
-                        <img src="{{asset('images/ic_globe-2.png')}}" class="icon" alt="">
+                        <img src="{{asset('images/ic3.png')}}" class="icon" alt="">
                         <h3 class="title">
-                            1-1 Mentoring
+                            Food & beverages
                         </h3>
                         <p class="support">
-                            We will ensure that you will get <br> what you really do need
+                            Breakfast, lunch, and dinner
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-12">
                     <div class="item-benefit">
-                        <img src="{{asset('images/ic_globe-3.png')}}" class="icon" alt="">
+                        <img src="{{asset('images/ic4.png')}}" class="icon" alt="">
                         <h3 class="title">
-                            Future Job
+                            Playground
                         </h3>
                         <p class="support">
-                            Get your dream job in your dream <br> company together with us
+                            Outdoor and indoor playground
                         </p>
                     </div>
                 </div>
@@ -120,155 +96,52 @@
         </div>
     </section>
 
-    <section class="pricing" id="reservation">
+    <section class="steps" id="reservation">
         <div class="container">
-            <div class="row pb-70">
-                <div class="col-lg-5 col-12 header-wrap copywriting">
+            <div class="row item-step pb-70">
+                <div class="col-lg-6 col-12 text-center">
+                    <img src="{{asset('images/about.png')}}" class="cover" alt="">
+                </div>
+                <div class="col-lg-6 col-12 text-left copywriting">
                     <p class="story">
-                        GOOD INVESTMENT
+                        VIP Room
                     </p>
-                    <h2 class="primary-header text-white">
-                        Start Your Journey
+                    <h2 class="primary-header">
+                        Rp 1.000.000
                     </h2>
                     <p class="support">
-                        Learn how to speaking in public to demonstrate your <br> final project and receive the important feedbacks
+                    King size bed, unlimited room service, free breakfast.
                     </p>
                     <p class="mt-5">
-                        <a href="#" class="btn btn-master btn-thirdty me-3">
-                            View Syllabus
+                    <a href="{{route('checkout.create', 'gila-belajar')}}" class="btn btn-master btn-secondary me-3">
+                            Book Room
                         </a>
                     </p>
                 </div>
-                <div class="col-lg-7 col-12">
-                    <div class="row">
-                        <div class="col-lg-6 col-12">
-                            <div class="table-pricing paket-gila">
-                                <p class="story text-center">
-                                    GILA BELAJAR
-                                </p>
-                                <h1 class="price text-center">
-                                    $280K
-                                </h1>
-                                <div class="item-benefit-pricing mb-4">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        Pro Techstack Kit
-                                    </p>
-                                    <div class="clear"></div>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="item-benefit-pricing mb-4">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        iMac Pro 2021 & Display
-                                    </p>
-                                    <div class="clear"></div>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="item-benefit-pricing mb-4">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        1-1 Mentoring Program
-                                    </p>
-                                    <div class="clear"></div>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="item-benefit-pricing mb-4">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        Final Project Certificate
-                                    </p>
-                                    <div class="clear"></div>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="item-benefit-pricing mb-4">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        Offline Course Videos
-                                    </p>
-                                    <div class="clear"></div>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="item-benefit-pricing mb-4">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        Future Job Opportinity
-                                    </p>
-                                    <div class="clear"></div>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="item-benefit-pricing mb-4">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        Premium Design Kit
-                                    </p>
-                                    <div class="clear"></div>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="item-benefit-pricing">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        Website Builder
-                                    </p>
-                                    <div class="clear"></div>
-                                </div>
-                                <p>
-                                    <a href="{{route('checkout.create', 'gila-belajar')}}" class="btn btn-master btn-primary w-100 mt-3">
-                                        Take This Plan
+            </div>
+
+        
+            <div class="row item-step pb-70">
+                <div class="col-lg-6 col-12 text-left copywriting pl-150">
+                    <p class="story">
+                        Regular Room
+                    </p>
+                    <h2 class="primary-header">
+                        Rp 750.000
+                    </h2>
+                    <p class="support">
+                        Each of you will be joining the private group and also <br> working together with team members on project
+                    </p>
+                    <p class="mt-5">
+                    <a href="{{route('checkout.create', 'baru-mulai')}}" class="btn btn-master btn-secondary me-3">
+                                        Book Room
                                     </a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-12">
-                            <div class="table-pricing paket-biasa">
-                                <p class="story text-center">
-                                    BARU MULAI
-                                </p>
-                                <h1 class="price text-center">
-                                    $140K
-                                </h1>
-                                <div class="item-benefit-pricing mb-4">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        1-1 Mentoring Program
-                                    </p>
-                                    <div class="clear"></div>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="item-benefit-pricing mb-4">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        Final Project Certificate
-                                    </p>
-                                    <div class="clear"></div>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="item-benefit-pricing mb-4">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        Offline Course Videos
-                                    </p>
-                                    <div class="clear"></div>
-                                    <div class="divider"></div>
-                                </div>
-                                <div class="item-benefit-pricing">
-                                    <img src="{{asset('images/ic_check.svg')}}" alt="">
-                                    <p>
-                                        Future Job Opportinity
-                                    </p>
-                                    <div class="clear"></div>
-                                </div>
-                                <p>
-                                    <a href="{{route('checkout.create', 'baru-mulai')}}" class="btn btn-master btn-secondary w-100 mt-3">
-                                        Start With This Plan
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 text-center">
+                    <img src="{{asset('images/about.png')}}" class="cover" alt="">
                 </div>
             </div>
-        </div>
     </section>
 
     <section class="testimonials" id="testi">
@@ -276,10 +149,10 @@
             <div class="row text-center pb-70">
                 <div class="col-lg-12 col-12 header-wrap">
                     <p class="story">
-                        SUCCESS STUDENTS
+                        TESTIMONIALS
                     </p>
                     <h2 class="primary-header">
-                        We Really Love Laracamp
+                        What they think about us
                     </h2>
                 </div>
             </div>
@@ -290,16 +163,16 @@
                             <div class="item-review">
                                 <img src="{{asset('images/stars.svg')}}" alt="">
                                 <p class="message">
-                                    I was not really into code but after they teach me how to train my logic then I was really fall in love with code
+                                "I've already stayed here for quite a couple times and the experience is always good"
                                 </p>
                                 <div class="user">
-                                    <img src="{{asset('images/fanny_photo.png')}}" class="photo" alt="">
+                                    <img src="{{asset('images/testi1.png')}}" class="photo" alt="">
                                     <div class="info">
                                         <h4 class="name">
-                                            Fanny
+                                            Essy
                                         </h4>
                                         <p class="role">
-                                            Developer at Google
+                                            College student
                                         </p>
                                     </div>
                                 </div>
@@ -309,16 +182,16 @@
                             <div class="item-review">
                                 <img src="{{asset('images/stars.svg')}}" alt="">
                                 <p class="message">
-                                    Code is really important if we want to build a company and strike to the win
+                                "Good places to stay, clean and comfy, also the team has a quick responses for your needs"
                                 </p>
                                 <div class="user">
-                                    <img src="{{asset('images/angga.png')}}" class="photo" alt="">
+                                    <img src="{{asset('images/testi2.png')}}" class="photo" alt="">
                                     <div class="info">
                                         <h4 class="name">
-                                            Angga
+                                            Meggie
                                         </h4>
                                         <p class="role">
-                                            CEO at BWA Corp
+                                            Stay at home mother
                                         </p>
                                     </div>
                                 </div>
@@ -328,16 +201,16 @@
                             <div class="item-review">
                                 <img src="{{asset('images/stars.svg')}}" alt="">
                                 <p class="message">
-                                    My background is design and art but I do really love how to make my design working in the development phase
+                                "The room is spacious, clean, the view is really ok, suitable for relaxing, good service"
                                 </p>
                                 <div class="user">
-                                    <img src="{{asset('images/beatrice.png')}}" class="photo" alt="">
+                                    <img src="{{asset('images/testi3.png')}}" class="photo" alt="">
                                     <div class="info">
                                         <h4 class="name">
-                                            Beatrice
+                                            Mico
                                         </h4>
                                         <p class="role">
-                                            QA at Facebook
+                                            Creativepreneur
                                         </p>
                                     </div>
                                 </div>

@@ -90,6 +90,7 @@ body {
   line-height: 30px;
   min-height: 90px;
   margin-top: 30px;
+  text-align: justify;
 }
 
 .testimonials .item-review .user {
@@ -114,6 +115,20 @@ body {
   margin-bottom: 0;
 }
 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .testimonials .item-review .user .info .role {
   min-height: 0;
   margin-top: 0;
@@ -122,7 +137,7 @@ body {
 
 .pricing {
   margin-top: 100px;
-  background: #4D1DAB;
+  background: #E7AD4C;
   padding-top: 70px;
   max-height: 620px;
 }
@@ -134,7 +149,7 @@ body {
 .pricing .support {
   font-size: 16px;
   font-weight: 400;
-  color: #CBB0FF;
+  color: #606060;
   line-height: 30px;
   margin-top: 30px;
 }
@@ -197,6 +212,7 @@ body {
   color: #5B5575;
   line-height: 30px;
   margin-top: 30px;
+  text-align: justify;
 }
 
 .btn-master, .btn-thirdty, .btn-primary, .btn-secondary {
@@ -223,7 +239,12 @@ body {
 .story {
   font-weight: 600;
   font-size: 16px;
-  color: #31B380;
+  color: #e7ad4c;
+}
+.stories {
+  font-weight: 600;
+  font-size: 16px;
+  color: #606060;
 }
 
 .primary-header {

@@ -56,7 +56,7 @@
                     @empty
                         <tr>
                             <td colspan="5">
-                                <h3>No Camp Registered</h3>
+                                <h3>No Reservation Booked</h3>
                             </td>
                         </tr>
                     @endforelse

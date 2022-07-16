@@ -6,10 +6,10 @@
             <div class="row text-center pb-70">
                 <div class="col-lg-12 col-12 header-wrap">
                     <p class="story">
-                        YOUR FUTURE CAREER
+                        Room Reservation
                     </p>
                     <h2 class="primary-header">
-                        Start Invest Today
+                        Input your personal info
                     </h2>
                 </div>
             </div>
@@ -18,7 +18,7 @@
                     <div class="row">
                         <div class="col-lg-5 col-12">
                             <div class="item-bootcamp">
-                                <img src="{{asset('images/item_bootcamp.png')}}" alt="" class="cover">
+                                <img src="{{asset('images/dash.png')}}" alt="" class="cover">
                                 <h1 class="package text-uppercase">
                                     {{$camp->title}}
                                 </h1>

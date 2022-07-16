@@ -21,15 +21,15 @@
 
     <section class="login-user">
         <div class="left">
-            <img src="{{asset('images/ill_login_new.png')}}" alt="">
+            <img src="{{asset('images/r.png')}}" alt="">
         </div>
         <div class="right">
             <img src="{{asset('images/logo.png')}}" class="logo" alt="">
             <h1 class="header-third">
-                Start Today
+                Register your account
             </h1>
             <p class="subheader">
-                Because tomorrow become never
+                Sign Up/Sign In to your account
             </p>
             <p>
                 <a class="btn btn-border btn-google-login" href="{{route('user.login.google')}}">

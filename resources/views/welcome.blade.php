@@ -19,7 +19,7 @@
                             </p>
                             <p class="cta">
                                 <a href="#reservation" class="btn btn-master btn-primary">
-                                    Get Started
+                                    Start Book
                                 </a>
                             </p>
                         </div>
@@ -100,7 +100,7 @@
         <div class="container">
             <div class="row item-step pb-70">
                 <div class="col-lg-6 col-12 text-center">
-                    <img src="{{asset('images/about.png')}}" class="cover" alt="">
+                    <img src="{{asset('images/room1.png')}}" class="cover" alt="">
                 </div>
                 <div class="col-lg-6 col-12 text-left copywriting">
                     <p class="story">
@@ -110,10 +110,10 @@
                         Rp 1.000.000
                     </h2>
                     <p class="support">
-                    King size bed, unlimited room service, free breakfast.
+                    1 double bed or 2 single bed, free breakfast, 28.0 sqm.
                     </p>
                     <p class="mt-5">
-                    <a href="{{route('checkout.create', 'gila-belajar')}}" class="btn btn-master btn-secondary me-3">
+                    <a href="{{route('checkout.create', 'vip-room')}}" class="btn btn-master btn-primary">
                             Book Room
                         </a>
                     </p>
@@ -130,18 +130,19 @@
                         Rp 750.000
                     </h2>
                     <p class="support">
-                        Each of you will be joining the private group and also <br> working together with team members on project
+                    1 double bed or 2 single bed, breakfast non included, 28.0 sqm.   
                     </p>
                     <p class="mt-5">
-                    <a href="{{route('checkout.create', 'baru-mulai')}}" class="btn btn-master btn-secondary me-3">
+                    <a href="{{route('checkout.create', 'regular-room')}}" class="btn btn-master btn-primary">
                                         Book Room
                                     </a>
                     </p>
                 </div>
                 <div class="col-lg-6 col-12 text-center">
-                    <img src="{{asset('images/about.png')}}" class="cover" alt="">
+                    <img src="{{asset('images/room2.png')}}" class="cover" alt="">
                 </div>
             </div>
+
     </section>
 
     <section class="testimonials" id="testi">

@@ -9,7 +9,7 @@
                         DASHBOARD
                     </p>
                     <h2 class="primary-header ">
-                        My Bootcamps
+                        My Reservations
                     </h2>
                 </div>
             </div>
@@ -20,7 +20,7 @@
                      @forelse ($checkouts as $checkout)
                     <tr class="align-middle"> 
                         <td width="18%">
-                            <img src="{{asset('images/item_bootcamp.png')}}" height="120" alt="">
+                            <img src="{{asset('images/dash.png')}}" height="120" alt="">
                         </td>
                         <td>
                             <p class="mb-2">

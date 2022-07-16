@@ -18,14 +18,14 @@ class CampTableSeeder extends Seeder
            [
                'title' => 'VIP ROOM',
                'slug' => 'vip-room',
-               'price' => 280,
+               'price' => 1000,
                'created_at' => date('Y-m-d H:i:s', time()),
                'updated_at' => date('Y-m-d H:i:s', time()),
            ],
             [
                 'title' => 'Regular Room',
                 'slug' => 'regular-room',
-                'price' => 140,
+                'price' => 750,
                 'created_at' => date('Y-m-d H:i:s', time()),
                 'updated_at' => date('Y-m-d H:i:s', time()),
             ],
